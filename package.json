@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-admin-api",
+  "version": "1.0.0",
+  "description": "E-commerce Admin API for Sales, Inventory, and Product Management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node seeders/seed-demo-data.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.0",
+    "sequelize": "^6.32.1",
+    "body-parser": "^1.20.2"
+  }
+}

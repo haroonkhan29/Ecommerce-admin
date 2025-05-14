@@ -1,0 +1,31 @@
+# Node modules folder (always ignore)
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build folders (agar aapka project build karta hai)
+dist/
+build/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Seeders folder ignore karna hai to uncomment karo (optional)
+# seeders/
